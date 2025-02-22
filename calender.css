@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    background-image: url("image.");
+}
+
+.mini-calender{
+   background-color: aliceblue;
+   width: 300px;
+   height: 250px;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px grey;
+    overflow: hidden;
+}
+
+.mini-calender:hover{
+    box-shadow: 0px 6px 11px black;
+}
+
+.month-calender{
+ background-color: orange;
+ margin: 0px;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-size: x-large;
+ font-weight: 800;
+ color: white;
+}
+
+.day-calender{
+  /* margin: 15px; */
+  font-size: larger;
+  margin-top: 10px;
+  color: grey;
+}
+
+.date-calender{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.year-calender{
+    font-size: larger;
+    color: grey;
+    /* margin-bottom: 10px; */
+}
